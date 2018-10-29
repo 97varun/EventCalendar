@@ -18,16 +18,6 @@ $(document).ready(function() {
         fixedWeekCount: false,
         selectable: true,
         eventLimit: true,
-        // hard coded event
-        events: [
-            {
-                title: 'Title',
-                start: '2018-10-21',
-                end: '2018-10-28',
-                desc: 'Description',
-                venue: 'Venue'
-            },
-        ],
         // events coming from json feed
         eventSources: [
             {
@@ -41,7 +31,7 @@ $(document).ready(function() {
             
             // remove another popover if it's already there
             if ($('.popover').length > 0) {
-                detach();
+                detachAndRemoveHandlers();
             }
             
             // get the content for popover from html
