@@ -9,6 +9,6 @@
 * All users are shown all events. I don't know if there are multiple calendars or events are shown based on the user.
 * Add event, more, edit, delete buttons etc. have to be linked to the files doing this work.
 * Is there a global menu bar for our website which has to be added to this page also?
-* If admin updates an event, it has to update for all users at that time.
+* If admin updates an event, it has to update for all users.
 ### Screenshot
 ![screenshot](https://raw.githubusercontent.com/VarunV-007/EventCalendar/master/screenshots/ss1.png)
