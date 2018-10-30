@@ -1,5 +1,5 @@
 # EventCalendar
-* This a basic design. Please let me know what has to be added/removed.
+* This is a basic design. Please let me know what has to be added/removed.
 ### Run
 * Download the zip and place it in ```htdocs``` folder of xampp in Windows, not sure about other operating systems
 * Extract the zip and rename it to "EventCalendar"
